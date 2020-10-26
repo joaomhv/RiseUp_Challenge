@@ -1,0 +1,3 @@
+links utilizados
+	--> https://datatables.net/examples/advanced_init/length_menu.html
+	--> https://bootstrapious.com/p/bootstrap-sidebar

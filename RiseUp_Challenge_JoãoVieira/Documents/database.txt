@@ -1,0 +1,24 @@
+create database challenge_TwoImpulse;
+
+use challenge_TwoImpulse;
+
+create table status (
+	statusId int auto_increment primary key,
+    description nvarchar(128)
+);
+
+create table position (
+	positionId int auto_increment primary key,
+    description nvarchar(128)
+);
+
+create table employee (
+	empolyeeId int auto_increment primary key,
+	name nvarchar(128),
+    birthdate datetime,
+    adress text,
+    statusId int,
+    positionId int,
+    created datetime,
+    updated datetime
+)
